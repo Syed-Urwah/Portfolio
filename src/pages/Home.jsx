@@ -20,7 +20,7 @@ const Home = () => {
 				
 			</div>
 
-			<div className="tech-stack w-full flex flex-wrap justify-center gap-4 text-3xl text-white font-semibold py-6">
+			<div className="tech-stack w-full flex flex-wrap justify-center gap-4 text-3xl text-ternary-dark dark:text-ternary-light font-semibold py-6">
 					<p>Html</p>
 					<p>CSS</p>
 					<p>Javascript</p>
