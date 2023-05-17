@@ -70,7 +70,7 @@ const AppHeader = () => {
 					</div>
 
 					{/* Small screen hamburger menu */}
-					<div className="sm:hidden">
+					{/* <div className="sm:hidden">
 						<button
 							onClick={toggleMenu}
 							type="button"
@@ -89,7 +89,7 @@ const AppHeader = () => {
 								)}
 							</svg>
 						</button>
-					</div>
+					</div> */}
 				</div>
 
 				{/* Header links small screen */}
