@@ -3,6 +3,17 @@ import { FiSearch } from 'react-icons/fi';
 import ProjectSingle from './ProjectSingle';
 import { ProjectsContext } from '../../context/ProjectsContext';
 import ProjectsFilter from './ProjectsFilter';
+import img1 from './images/1.png'
+import yt from './images/YT-1.png'
+import dsign from './images/dsign-1.png'
+import elite from './images/elite-1.png'
+import feroz from './images/feroz-1.png'
+import kamyaby from './images/k-1.png'
+import kpk from './images/kpk-1.png'
+import lms from './images/lms-1.png'
+import maze from './images/maze-1.png'
+import chat from './images/chat-1.png'
+import eco from './images/eco1.png'
 
 const ProjectsGrid = () => {
 	const {
@@ -23,7 +34,7 @@ const ProjectsGrid = () => {
 				</p>
 			</div>
 
-			<div className="mt-10 sm:mt-16">
+			{/* <div className="mt-10 sm:mt-16">
 				<h3
 					className="font-general-regular 
                         text-center text-secondary-dark
@@ -91,9 +102,92 @@ const ProjectsGrid = () => {
 
 					<ProjectsFilter setSelectProject={setSelectProject} />
 				</div>
-			</div>
+			</div> */}
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+				
+				<ProjectSingle
+					title={"myTube (Youtube Clone)"}
+					category={"Video Streaming"}
+					image={yt}
+					link="https://my-tube1-1.vercel.app/"
+					id={1}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"SyedChat"}
+					category={"Chat"}
+					image={chat}
+					id={2}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"Eco (Ongoing)"}
+					category={"Ecommerce"}
+					image={eco}
+					id={3}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"Fleurdsign"}
+					category={"Wedding"}
+					image={dsign}
+					link={'https://fleurdsign.com/'}
+					id={4}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"EliteHomes"}
+					category={"Ecommerce"}
+					image={elite}
+					link="http://elitehomes.pk/"
+					id={5}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"Maz-Mapping"}
+					category={"Ecommerce"}
+					image={maze}
+					link="https://www.maze-mapping.com/"
+					id={6}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"FerozNasir"}
+					category={"Book Store"}
+					image={feroz}
+					link="http://feroznasir.pk/"
+					id={7}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"KamyabySolutions"}
+					category={"Company"}
+					image={kamyaby}
+					link="https://kamyaby.org/"
+					id={8}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"Kamyaby"}
+					category={"Blogging/Books"}
+					image={kpk}
+					link="https://kamyaby.pk/"
+					id={9}
+					key={1}
+				/>
+				<ProjectSingle
+					title={"Kamyabika"}
+					category={"LMS"}
+					image={lms}
+					link="https://kamyabika.pk/"
+					id={10}
+					key={1}
+				/>
+				
+			</div>
+
+			{/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
 					? selectProjectsByCategory.map((project) => (
 							<ProjectSingle
@@ -120,7 +214,7 @@ const ProjectsGrid = () => {
 								key={project.id}
 							/>
 					  ))}
-			</div>
+			</div> */}
 		</section>
 	);
 };

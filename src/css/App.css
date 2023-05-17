@@ -224,6 +224,10 @@ body {
 	opacity: 1;
 }
 
+.tech-stack{
+	flex-wrap: wrap;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
