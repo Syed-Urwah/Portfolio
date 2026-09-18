@@ -13,6 +13,9 @@ export const metadata = {
   title: "Portfolio of Syed Urwah - Full Stack Developer",
   description:
     "This is the portfolio of Syed Urwah. I am a Full Stack Developer based in Pakistan with experience building production-level applications. I specialize in JavaScript/TypeScript ecosystems including React, Next.js, Node.js, and Laravel.",
+  icons: {
+    icon: '/profile1.jpeg',
+  },
 };
 
 export default function RootLayout({ children }) {
