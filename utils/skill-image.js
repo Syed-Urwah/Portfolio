@@ -82,6 +82,13 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import express from '../app/assets/svg/skills/express.svg'
+import nestjs from '../app/assets/svg/skills/nestjs.svg'
+import nodejs from '../app/assets/svg/skills/nodejs.svg'
+import laravel from '../app/assets/svg/skills/laravel.svg'
+import puppeteer from '../app/assets/svg/skills/puppeteer.svg'
+import socketio from '../app/assets/svg/skills/socket-dot-io.svg'
+import tailwindcss from '../app/assets/svg/skills/tailwindcss.svg'
 
 
 
@@ -254,6 +261,24 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'express':
+      return express;
+    case 'nestjs':
+      return nestjs;
+    case 'node js':
+      return nodejs;
+    case 'nodejs':
+      return nodejs;
+    case 'laravel':
+      return laravel;
+    case 'puppeteer':
+      return puppeteer;
+    case 'websockets':
+      return socketio;
+    case 'socket.io':
+      return socketio;
+    case 'tailwind css':
+      return tailwindcss;
     default:
       break;
   }
